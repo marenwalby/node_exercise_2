@@ -6,7 +6,7 @@ app.use(express.static('public'))
 //greeting array
 function greeter(){
 
-    var greeting = ["Hei på du!"];
+    var greeting = ["Hei på du!", "Hallo", "Heisann", "Hei sveis!"];
     var greet = greeting[Math.floor(Math.random()*4)];
     
     return greet;
